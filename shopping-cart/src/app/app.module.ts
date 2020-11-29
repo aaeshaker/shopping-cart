@@ -12,6 +12,8 @@ import { CartComponent } from './components/shopping-cart/cart/cart.component';
 import { CartItemComponent } from './components/shopping-cart/cart/cart-item/cart-item.component';
 import { ProductItemComponent } from './components/shopping-cart/product-list/product-item/product-item.component';
 
+import { HttpClientModule } from '@angular/common/http' //added to use apis
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +28,8 @@ import { ProductItemComponent } from './components/shopping-cart/product-list/pr
     ProductItemComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule //added to use apis
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,6 +1,8 @@
+import { CartService } from './../../../services/cart.service';
 import { Product } from './../../../models/product';
 import { MessengerService } from './../../../services/messenger.service';
 import { Component, OnInit } from '@angular/core';
+import { CartItem } from 'src/app/models/cart-item';
 
 @Component({
   selector: 'app-cart',
@@ -18,12 +20,22 @@ export class CartComponent implements OnInit {
 
   cartTotal = 0;
 
-  constructor(private msg: MessengerService) { }
+  constructor(private msg: MessengerService, private cartService: CartService) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void { 
+    this.handleSubscription();
+    this.loadCartItems();
+  }
 
+  handleSubscription() {
     this.msg.getMsg().subscribe((product: Product) => {
-      this.addProductToCart(product);
+      this.loadCartItems();
+    });
+  }
+
+  loadCartItems() {
+    this.cartService.getCartItems().subscribe((items: CartItem[]) => {
+      console.log(items);
     });
   }
 
@@ -48,6 +60,17 @@ export class CartComponent implements OnInit {
       });
     }
 
+    // this.cartTotal = 0;
+    // //we write it here because we want to run it when the component is loaded
+    // //this method used to calculate the total price
+    // this.cartItems.forEach(item => {
+    //   this.cartTotal += (item.qty * item.price)
+    // });
+
+    this.calcCartTotal();
+  }
+
+  calcCartTotal() {
     this.cartTotal = 0;
     //we write it here because we want to run it when the component is loaded
     //this method used to calculate the total price
