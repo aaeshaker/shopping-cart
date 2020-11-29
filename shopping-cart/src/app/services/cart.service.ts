@@ -1,9 +1,9 @@
+import { CartItem } from 'src/app/models/cart-item';
 import { Product } from './../models/product';
 import { Observable } from 'rxjs';
 import { cartUrl } from './../../config/api';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { CartItem } from '../models/cart-item';
 import { map } from 'rxjs/operators';
 
 
@@ -18,13 +18,29 @@ export class CartService {
   getCartItems(): Observable<CartItem[]> {
     //TODO: Mapping the obtained result to our CartItem properties (pipe() and map())
     return this.http.get<CartItem[]>(cartUrl).pipe(
-      map(item => { //here map method would iterate through each and every cart-item that we obtain inside the array
-        console.log(item);
-        return item;
+      map((result: any[]) => { //here map method would iterate through each and every cart-item that we obtain inside the array
+        let cartItems: CartItem[] = [];
+
+        for (let item of result) {
+          let productExists = false;
+
+          for (let i in cartItems) {
+            if (cartItems[i].productId === item.product.id) {
+              cartItems[i].qty++;
+              productExists = true;
+              break;
+            }
+          }
+
+          if (!productExists) {
+            cartItems.push(new CartItem(item.id, item.product));
+          }
+        }
+        return cartItems;
       })
     ); //.get() used to receive data
   }
-  
+
   addProductToCart(product: Product): Observable<any> {
     return this.http.post(cartUrl, { product }); //.post() used to send data
   }

@@ -35,30 +35,32 @@ export class CartComponent implements OnInit {
 
   loadCartItems() {
     this.cartService.getCartItems().subscribe((items: CartItem[]) => {
-      console.log(items);
+      this.cartItems = items; //to prevent empty cart after refreshing 
+      this.calcCartTotal();
+      // console.log(items);
     });
   }
 
-  addProductToCart(product: Product) {
+  // addProductToCart(product: Product) {
 
-    let productExists = false;
+  //   let productExists = false;
 
-    for (let i in this.cartItems) {
-      if (this.cartItems[i].productId === product.id) {
-        this.cartItems[i].qty++;
-        productExists = true;
-        break;
-      }
-    }
+  //   for (let i in this.cartItems) {
+  //     if (this.cartItems[i].productId === product.id) {
+  //       this.cartItems[i].qty++;
+  //       productExists = true;
+  //       break;
+  //     }
+  //   }
 
-    if (!productExists) {
-      this.cartItems.push({
-        productId: product.id,
-        productName: product.name,
-        qty: 1,
-        price: product.price
-      });
-    }
+  //   if (!productExists) {
+  //     this.cartItems.push({
+  //       productId: product.id,
+  //       productName: product.name,
+  //       qty: 1,
+  //       price: product.price
+  //     });
+  //   }
 
     // this.cartTotal = 0;
     // //we write it here because we want to run it when the component is loaded
@@ -67,8 +69,8 @@ export class CartComponent implements OnInit {
     //   this.cartTotal += (item.qty * item.price)
     // });
 
-    this.calcCartTotal();
-  }
+  //   this.calcCartTotal();
+  // }
 
   calcCartTotal() {
     this.cartTotal = 0;
