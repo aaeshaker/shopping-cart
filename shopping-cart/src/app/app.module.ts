@@ -12,7 +12,7 @@ import { CartComponent } from './components/shopping-cart/cart/cart.component';
 import { CartItemComponent } from './components/shopping-cart/cart/cart-item/cart-item.component';
 import { ProductItemComponent } from './components/shopping-cart/product-list/product-item/product-item.component';
 
-import { HttpClientModule } from '@angular/common/http' //added to use apis
+import { HttpClientModule } from '@angular/common/http' //we should import it if you want to use api
 
 @NgModule({
   declarations: [

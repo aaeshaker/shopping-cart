@@ -14,8 +14,9 @@ export class ProductListComponent implements OnInit {
 
   constructor(private ProductService: ProductService) { } //this is called Dependency Injection DI
 
+  //we should recieve data related to component in ngOnInit() 
   ngOnInit(): void {
-    this.ProductService.getProducts().subscribe((products) => {  //added to use apis
+    this.ProductService.getProducts().subscribe((products) => { 
       this.productList = products;
     });
   }

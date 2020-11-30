@@ -27,3 +27,20 @@
 .product-btn {
   font-size: smaller;
 }
+
+.fa-heart {
+  /* color: palevioletred; */
+  color: grey;
+  cursor: pointer;
+}
+
+.fa-heart-by-click {
+  color: red;
+}
+
+.bg {
+  background-position: center;
+  background-size: cover;
+  height: 20vh;;
+
+}

@@ -11,7 +11,7 @@
       "id": 2,
       "name": "Dinasaur",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-      "imageUrl": "https://prodimage.images-bn.com/pimages/4059433029979_p0_v1_s1200x630.jpg",
+      "imageUrl": "https://www.urzeitshop.de/10621-tm_large_default/trex-walking-brown-dinosaur-toy-figure-by-papo.jpg",
       "price": 199
     },
     {
@@ -36,6 +36,7 @@
       "price": 99
     }
   ],
+  "wishlist": [],
   "cart": [
     {
       "product": {
@@ -326,6 +327,26 @@
         "price": 499
       },
       "id": 29
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Red Car",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "imageUrl": "https://image.made-in-china.com/2f0j00RmbTnGYIJocf/11671518-Remote-Car-Toys-for-Kids-12V-Rechargeable-Children-Toys-Car-Kids-Toys.jpg",
+        "price": 299
+      },
+      "id": 30
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Dinasaur",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "imageUrl": "https://prodimage.images-bn.com/pimages/4059433029979_p0_v1_s1200x630.jpg",
+        "price": 199
+      },
+      "id": 31
     }
   ],
   "posts": [

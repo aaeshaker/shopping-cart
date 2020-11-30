@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'; //added to use apis
 import { Observable } from 'rxjs'; //added to use apis
 
-import { productsUrl } from './../../config/api';
+import { productsUrl } from './../../config/api'; //added to use apis
 
 
 //const apiUrl = 'http://localhost:3000/products'; //added to use apis
@@ -26,9 +26,10 @@ export class ProductService {
   //   new Product(8, 'Product 8', 'This is the product 8 description. The product is really cool!', 300)
   // ]
 
-  constructor(private http: HttpClient) { } //added to use apis
+  constructor(private http: HttpClient) { } 
 
-  getProducts(): Observable<Product[]> { //added to use apis
+  //used to fetch products from datbase 
+  getProducts(): Observable<Product[]> { 
     return this.http.get<Product[]>(productsUrl);
   }
 }
