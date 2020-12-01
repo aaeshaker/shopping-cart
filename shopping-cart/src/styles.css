@@ -29,14 +29,13 @@
 }
 
 .fa-heart {
-  /* color: palevioletred; */
-  color: grey;
+  color: palevioletred;
   cursor: pointer;
 }
 
-.fa-heart-by-click {
+/* .fa-heart-by-click {
   color: red;
-}
+} */
 
 .bg {
   background-position: center;

@@ -5,9 +5,10 @@
   <div class="card-body">
     <p class="card-text">
       <strong>{{ productItem.price | currency: 'USD' }}</strong>
-      <!-- <i class="far fa-heart float-right" (click)="onClick($event)"></i> -->
+      <i *ngIf="addedToWishlist" class="fas fa-heart float-right" (click)="handelRemoveFromWishlist()"></i>
+      <i *ngIf="!addedToWishlist" class="far fa-heart float-right" (click)="handelAddToWishlist()"></i>
       <!-- you can use fas to use solid heart, you can try it -->
-      <i class="fas fa-heart float-right" (click)="onClick($event)"></i> 
+      <!-- <i class="fas fa-heart float-right" (click)="onClick($event)"></i>  -->
     </p>
     <p class="card-text">{{ productItem.description | slice: 0:30 }}...</p>
     <!-- slice used to limit the lines (built-in pipes) -->

@@ -36,7 +36,14 @@
       "price": 99
     }
   ],
-  "wishlist": [],
+  "wishlist": [
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    }
+  ],
   "cart": [
     {
       "product": {
