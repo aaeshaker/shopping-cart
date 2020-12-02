@@ -12,7 +12,12 @@ import { CartComponent } from './components/shopping-cart/cart/cart.component';
 import { CartItemComponent } from './components/shopping-cart/cart/cart-item/cart-item.component';
 import { ProductItemComponent } from './components/shopping-cart/product-list/product-item/product-item.component';
 
-import { HttpClientModule } from '@angular/common/http' //we should import it if you want to use api
+import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component' //we should import it if you want to use api
+
+import { AppRoutingModule } from './app-routing.module';
+import { PageNotFoundComponent } from './components/shared/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -25,11 +30,15 @@ import { HttpClientModule } from '@angular/common/http' //we should import it if
     ProductListComponent,
     CartComponent,
     CartItemComponent,
-    ProductItemComponent
+    ProductItemComponent,
+    LoginComponent,
+    RegisterComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule //added to use apis
+    HttpClientModule, //added to use apis
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
