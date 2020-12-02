@@ -1,6 +1,7 @@
 import { Product } from './../../../models/product';
 import { ProductService } from './../../../services/product.service';
 import { Component, OnInit } from '@angular/core';
+
 import { WishlistService } from 'src/app/services/wishlist.service';
 
 
@@ -12,19 +13,28 @@ import { WishlistService } from 'src/app/services/wishlist.service';
 export class ProductListComponent implements OnInit {
 
   productList: Product[] = [];
-  wishList;
+  wishlist: number[] = [];
+
   constructor(private ProductService: ProductService, private wishlistService: WishlistService) { } //this is called Dependency Injection DI
 
   //we should recieve data related to component in ngOnInit() 
   ngOnInit(): void {
+    this.loadProducts();
+    // this.ProductService.getProducts().subscribe((products) => {
+    //   this.productList = products;
+    //   this.wishlistService.getWishlist().subscribe((res: any) => {
+    //     this.wishList = res;
+    //     this.productList.forEach(element => {
+    //       element['addedToWishlist'] = this.loadWishlist(element);
+    //     })
+    //   })
+    // });
+    this.loadWishlist();
+  }
+
+  loadProducts() {
     this.ProductService.getProducts().subscribe((products) => {
       this.productList = products;
-      // this.wishlistService.getWishlist().subscribe((res: any) => {
-      //   this.wishList = res;
-      //   this.productList.forEach(element => {
-      //     element['addedToWishlist'] = this.loadWishlist(element);
-      //   })
-      // })
     });
   }
 
@@ -40,4 +50,11 @@ export class ProductListComponent implements OnInit {
   //   //   }
   //   // });
   // }
+
+  loadWishlist() {
+    this.wishlistService.getWishlist().subscribe((productIds) => {
+      console.log(productIds);
+      this.wishlist = productIds;
+    });
+  }
 }

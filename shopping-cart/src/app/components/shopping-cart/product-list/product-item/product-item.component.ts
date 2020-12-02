@@ -14,15 +14,14 @@ import { element } from 'protractor';
 })
 export class ProductItemComponent implements OnInit {
 
+  //input decorator means whenever you call this component, you've to evaluate these two inputs
   @Input() productItem: Product; //this is called input decorator instead of creating another service for product-item
 
-  addedToWishlist: boolean = false;0
+  @Input() addedToWishlist: boolean; //to use it in productList template(HTML)
 
   constructor(private msg: MessengerService, private cartService: CartService, private wishlistService: WishlistService) { }
 
   ngOnInit(): void {
-    
-    // this.loadWishlist();
   }
 
   //used to add product to cart after clicking and send msg 
@@ -50,6 +49,7 @@ export class ProductItemComponent implements OnInit {
     });
   }
 
+  /* This is my try */
   // loadWishlist() {
   //   this.wishlistService.getWishlist().subscribe((res: any) => {
   //     let index = res.findIndex(element => element.id === this.productItem.id)
