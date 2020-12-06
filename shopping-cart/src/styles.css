@@ -40,6 +40,19 @@
 .bg {
   background-position: center;
   background-size: cover;
-  height: 35vh;;
+  height: 25vh;;
 
+}
+
+.guest-form-card h2 {
+  text-transform: uppercase;
+  font-size: medium;
+}
+
+.guest-form-card label {
+  font-size: small;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  cursor: not-allowed;
 }

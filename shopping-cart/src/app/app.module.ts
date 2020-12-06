@@ -19,6 +19,8 @@ import { RegisterComponent } from './components/register/register.component' //w
 import { AppRoutingModule } from './app-routing.module';
 import { PageNotFoundComponent } from './components/shared/page-not-found/page-not-found.component';
 
+import { FormsModule } from '@angular/forms'; //to use the Template-Driven Forms
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +40,8 @@ import { PageNotFoundComponent } from './components/shared/page-not-found/page-n
   imports: [
     BrowserModule,
     HttpClientModule, //added to use apis
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
