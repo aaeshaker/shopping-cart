@@ -19,7 +19,7 @@ import { RegisterComponent } from './components/register/register.component' //w
 import { AppRoutingModule } from './app-routing.module';
 import { PageNotFoundComponent } from './components/shared/page-not-found/page-not-found.component';
 
-import { FormsModule } from '@angular/forms'; //to use the Template-Driven Forms
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'; //to use the Template-Driven Forms
 
 @NgModule({
   declarations: [
@@ -41,7 +41,8 @@ import { FormsModule } from '@angular/forms'; //to use the Template-Driven Forms
     BrowserModule,
     HttpClientModule, //added to use apis
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
