@@ -1,10 +1,17 @@
 <div class="card mb-4 box-shadow">
-  <img class="card-img-top" width="100%" [src]="productItem.imageUrl" alt="Card image cap">
+  <!-- I've used bg instead of image to control its size -->
+  <div class="bg card-img-top" [ngStyle]="{'background-image': 'url(' + productItem.imageUrl + ')'}"></div>
+  <!-- <img class="card-img-top" width="100%" [src]="productItem.imageUrl" alt="Card image cap"> -->
   <div class="card-body">
     <p class="card-text">
       <strong>{{ productItem.price | currency: 'USD' }}</strong>
+      <i *ngIf="addedToWishlist" class="fas fa-heart float-right" (click)="handelRemoveFromWishlist()"></i>
+      <i *ngIf="!addedToWishlist" class="far fa-heart float-right" (click)="handelAddToWishlist()"></i>
+      <!-- you can use fas to use solid heart, you can try it -->
+      <!-- <i class="fas fa-heart float-right" (click)="onClick($event)"></i>  -->
     </p>
-    <p class="card-text">{{ productItem.description }}</p>
+    <p class="card-text">{{ productItem.description | slice: 0:30 }}...</p>
+    <!-- slice used to limit the lines (built-in pipes) -->
     <div class="d-flex justify-content-between align-items-center">
       <div class="btn-group">
         <button type="button" class="btn btn-sm btn-primary product-btn" (click)="handelAddToCart()">Add to

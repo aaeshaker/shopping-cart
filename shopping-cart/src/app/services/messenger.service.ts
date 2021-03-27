@@ -10,14 +10,14 @@ export class MessengerService {
 
   constructor() { }
 
-  //This method will be something called from product Item
+  //This method will be called from product Item
   sendMsg(product) {
     this.subject.next(product); //Triggering an event
     // console.log(product);
   }
 
-  //This method will be something called inside the cart component
+  //This method will be called inside the cart component
   getMsg() {
-    return this.subject.asObservable(); //subscribe to whatever is being triggered
+    return this.subject.asObservable(); //subscribe whatever is being triggered
   }
 }

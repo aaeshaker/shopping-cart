@@ -1,0 +1,369 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Red Car",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "imageUrl": "https://image.made-in-china.com/2f0j00RmbTnGYIJocf/11671518-Remote-Car-Toys-for-Kids-12V-Rechargeable-Children-Toys-Car-Kids-Toys.jpg",
+      "price": 299
+    },
+    {
+      "id": 2,
+      "name": "Dinasaur",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+      "imageUrl": "https://www.urzeitshop.de/10621-tm_large_default/trex-walking-brown-dinosaur-toy-figure-by-papo.jpg",
+      "price": 199
+    },
+    {
+      "id": 3,
+      "name": "Bike",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "imageUrl": "https://www.mamerry.com/image/cache/images/549ff108b83a9ff5e95d60bda0d19fc427eb3109_1-1000x1000.jpg",
+      "price": 399
+    },
+    {
+      "id": 4,
+      "name": "Bus Toy",
+      "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+      "imageUrl": "https://ae01.alicdn.com/kf/H9856b890587149e7ba9118d227debeb2R/Simulation-Bus-Children-s-Toy-Car-Pull-Back-Car-Quality-Multicolor-Plastic-Bus-Model-1-64.jpg_Q90.jpg_.webp",
+      "price": 499
+    },
+    {
+      "id": 5,
+      "name": "Brown Bear",
+      "description": "The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout.",
+      "imageUrl": "https://rockandrolldaycare.com/wp-content/uploads/2020/04/image3.jpg",
+      "price": 99
+    }
+  ],
+  "wishlist": [],
+  "cart": [
+    {
+      "product": {
+        "id": 1,
+        "name": "Red Car",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "imageUrl": "https://image.made-in-china.com/2f0j00RmbTnGYIJocf/11671518-Remote-Car-Toys-for-Kids-12V-Rechargeable-Children-Toys-Car-Kids-Toys.jpg",
+        "price": 299
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "Brown Bear",
+        "description": "The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout.",
+        "imageUrl": "https://rockandrolldaycare.com/wp-content/uploads/2020/04/image3.jpg",
+        "price": 99
+      },
+      "id": 2
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Red Car",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "imageUrl": "https://image.made-in-china.com/2f0j00RmbTnGYIJocf/11671518-Remote-Car-Toys-for-Kids-12V-Rechargeable-Children-Toys-Car-Kids-Toys.jpg",
+        "price": 299
+      },
+      "id": 3
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Red Car",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "imageUrl": "https://image.made-in-china.com/2f0j00RmbTnGYIJocf/11671518-Remote-Car-Toys-for-Kids-12V-Rechargeable-Children-Toys-Car-Kids-Toys.jpg",
+        "price": 299
+      },
+      "id": 4
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Red Car",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "imageUrl": "https://image.made-in-china.com/2f0j00RmbTnGYIJocf/11671518-Remote-Car-Toys-for-Kids-12V-Rechargeable-Children-Toys-Car-Kids-Toys.jpg",
+        "price": 299
+      },
+      "id": 5
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Dinasaur",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "imageUrl": "https://lh3.googleusercontent.com/proxy/ysjuOaWz0luUyVggu93G2OWCAijhZDP0xgOUc28saJ6JEWOlT1LtYbrKPIKDA_syXw__yqPTGLyaDuBSXof_Ym77YshU7PAPQGef61kBpRVk8KxhG1matKPviDtD",
+        "price": 199
+      },
+      "id": 6
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Dinasaur",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "imageUrl": "https://lh3.googleusercontent.com/proxy/ysjuOaWz0luUyVggu93G2OWCAijhZDP0xgOUc28saJ6JEWOlT1LtYbrKPIKDA_syXw__yqPTGLyaDuBSXof_Ym77YshU7PAPQGef61kBpRVk8KxhG1matKPviDtD",
+        "price": 199
+      },
+      "id": 7
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Dinasaur",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "imageUrl": "https://lh3.googleusercontent.com/proxy/ysjuOaWz0luUyVggu93G2OWCAijhZDP0xgOUc28saJ6JEWOlT1LtYbrKPIKDA_syXw__yqPTGLyaDuBSXof_Ym77YshU7PAPQGef61kBpRVk8KxhG1matKPviDtD",
+        "price": 199
+      },
+      "id": 8
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Red Car",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "imageUrl": "https://image.made-in-china.com/2f0j00RmbTnGYIJocf/11671518-Remote-Car-Toys-for-Kids-12V-Rechargeable-Children-Toys-Car-Kids-Toys.jpg",
+        "price": 299
+      },
+      "id": 9
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Red Car",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "imageUrl": "https://image.made-in-china.com/2f0j00RmbTnGYIJocf/11671518-Remote-Car-Toys-for-Kids-12V-Rechargeable-Children-Toys-Car-Kids-Toys.jpg",
+        "price": 299
+      },
+      "id": 10
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Bike",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "imageUrl": "https://www.mamerry.com/image/cache/images/549ff108b83a9ff5e95d60bda0d19fc427eb3109_1-1000x1000.jpg",
+        "price": 399
+      },
+      "id": 11
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Bike",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "imageUrl": "https://www.mamerry.com/image/cache/images/549ff108b83a9ff5e95d60bda0d19fc427eb3109_1-1000x1000.jpg",
+        "price": 399
+      },
+      "id": 12
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Bike",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "imageUrl": "https://www.mamerry.com/image/cache/images/549ff108b83a9ff5e95d60bda0d19fc427eb3109_1-1000x1000.jpg",
+        "price": 399
+      },
+      "id": 13
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Bike",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "imageUrl": "https://www.mamerry.com/image/cache/images/549ff108b83a9ff5e95d60bda0d19fc427eb3109_1-1000x1000.jpg",
+        "price": 399
+      },
+      "id": 14
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Red Car",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "imageUrl": "https://image.made-in-china.com/2f0j00RmbTnGYIJocf/11671518-Remote-Car-Toys-for-Kids-12V-Rechargeable-Children-Toys-Car-Kids-Toys.jpg",
+        "price": 299
+      },
+      "id": 15
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Bike",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "imageUrl": "https://www.mamerry.com/image/cache/images/549ff108b83a9ff5e95d60bda0d19fc427eb3109_1-1000x1000.jpg",
+        "price": 399
+      },
+      "id": 16
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Bike",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "imageUrl": "https://www.mamerry.com/image/cache/images/549ff108b83a9ff5e95d60bda0d19fc427eb3109_1-1000x1000.jpg",
+        "price": 399
+      },
+      "id": 17
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Red Car",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "imageUrl": "https://image.made-in-china.com/2f0j00RmbTnGYIJocf/11671518-Remote-Car-Toys-for-Kids-12V-Rechargeable-Children-Toys-Car-Kids-Toys.jpg",
+        "price": 299
+      },
+      "id": 18
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "Brown Bear",
+        "description": "The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout.",
+        "imageUrl": "https://rockandrolldaycare.com/wp-content/uploads/2020/04/image3.jpg",
+        "price": 99
+      },
+      "id": 19
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Red Car",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "imageUrl": "https://image.made-in-china.com/2f0j00RmbTnGYIJocf/11671518-Remote-Car-Toys-for-Kids-12V-Rechargeable-Children-Toys-Car-Kids-Toys.jpg",
+        "price": 299
+      },
+      "id": 20
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Bike",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "imageUrl": "https://www.mamerry.com/image/cache/images/549ff108b83a9ff5e95d60bda0d19fc427eb3109_1-1000x1000.jpg",
+        "price": 399
+      },
+      "id": 21
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Bike",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "imageUrl": "https://www.mamerry.com/image/cache/images/549ff108b83a9ff5e95d60bda0d19fc427eb3109_1-1000x1000.jpg",
+        "price": 399
+      },
+      "id": 22
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Bike",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "imageUrl": "https://www.mamerry.com/image/cache/images/549ff108b83a9ff5e95d60bda0d19fc427eb3109_1-1000x1000.jpg",
+        "price": 399
+      },
+      "id": 23
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Red Car",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "imageUrl": "https://image.made-in-china.com/2f0j00RmbTnGYIJocf/11671518-Remote-Car-Toys-for-Kids-12V-Rechargeable-Children-Toys-Car-Kids-Toys.jpg",
+        "price": 299
+      },
+      "id": 24
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "Brown Bear",
+        "description": "The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout.",
+        "imageUrl": "https://rockandrolldaycare.com/wp-content/uploads/2020/04/image3.jpg",
+        "price": 99
+      },
+      "id": 25
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "Brown Bear",
+        "description": "The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout.",
+        "imageUrl": "https://rockandrolldaycare.com/wp-content/uploads/2020/04/image3.jpg",
+        "price": 99
+      },
+      "id": 26
+    },
+    {
+      "product": {
+        "id": 4,
+        "name": "Bus Toy",
+        "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+        "imageUrl": "https://ae01.alicdn.com/kf/H9856b890587149e7ba9118d227debeb2R/Simulation-Bus-Children-s-Toy-Car-Pull-Back-Car-Quality-Multicolor-Plastic-Bus-Model-1-64.jpg_Q90.jpg_.webp",
+        "price": 499
+      },
+      "id": 27
+    },
+    {
+      "product": {
+        "id": 4,
+        "name": "Bus Toy",
+        "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+        "imageUrl": "https://ae01.alicdn.com/kf/H9856b890587149e7ba9118d227debeb2R/Simulation-Bus-Children-s-Toy-Car-Pull-Back-Car-Quality-Multicolor-Plastic-Bus-Model-1-64.jpg_Q90.jpg_.webp",
+        "price": 499
+      },
+      "id": 28
+    },
+    {
+      "product": {
+        "id": 4,
+        "name": "Bus Toy",
+        "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+        "imageUrl": "https://ae01.alicdn.com/kf/H9856b890587149e7ba9118d227debeb2R/Simulation-Bus-Children-s-Toy-Car-Pull-Back-Car-Quality-Multicolor-Plastic-Bus-Model-1-64.jpg_Q90.jpg_.webp",
+        "price": 499
+      },
+      "id": 29
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Red Car",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "imageUrl": "https://image.made-in-china.com/2f0j00RmbTnGYIJocf/11671518-Remote-Car-Toys-for-Kids-12V-Rechargeable-Children-Toys-Car-Kids-Toys.jpg",
+        "price": 299
+      },
+      "id": 30
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Dinasaur",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "imageUrl": "https://prodimage.images-bn.com/pimages/4059433029979_p0_v1_s1200x630.jpg",
+        "price": 199
+      },
+      "id": 31
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
